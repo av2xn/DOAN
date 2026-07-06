@@ -31,5 +31,5 @@ adb shell "su -c '/data/local/tmp/script.sh'"
 ```
 
 ## ⚠️ Warning
-> Sometimes you may need to reboot the device!
+> Sometimes you may need to reboot the device!  
 > If your screen only shows black, next time, run the script whilst the main screen is displayed
