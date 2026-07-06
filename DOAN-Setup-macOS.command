@@ -81,7 +81,7 @@ echo "[*] Installing Magisk module (approve the root prompt on your device if it
 "$ADB_CMD" shell -t "su -c 'magisk --install-module /sdcard/debian_module.zip'"
 
 echo "[*] Pushing startup script (script.sh) to device..."
-curl -L -o script.sh "https://raw.githubusercontent.com/av2xn/Debian-On-Gta9pwifi/refs/heads/main/script.sh"
+curl -L -o script.sh "https://raw.githubusercontent.com/av2xn/DOAN/refs/heads/main/script.sh"
 "$ADB_CMD" push script.sh /data/local/tmp/script.sh
 rm -rf script.sh
 "$ADB_CMD" shell "su -c 'chmod +x /data/local/tmp/script.sh'"
