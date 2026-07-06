@@ -24,7 +24,7 @@ import stat
 # ----------------------------------------------------------------------
 
 DEBIAN_MODULE_URL = "https://github.com/av2xn/Magisk-Debian-Chroot/releases/download/v1.2/debian_module.zip"
-SCRIPT_SH_URL = "https://raw.githubusercontent.com/av2xn/Debian-On-Gta9pwifi/refs/heads/main/script.sh"
+SCRIPT_SH_URL = "https://raw.githubusercontent.com/av2xn/DOAN/refs/heads/main/script.sh"
 
 PACKAGES = (
     "labwc seatd xwayland xfce4 xfce4-goodies xfce4-terminal "
