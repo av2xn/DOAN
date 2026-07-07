@@ -33,3 +33,9 @@ adb shell "su -c '/data/local/tmp/script.sh'"
 ## ⚠️ Warning
 > Sometimes you may need to reboot the device!  
 > If your screen only shows black, next time, run the script whilst the main screen is displayed
+
+## Tested Devices
+|Device name|Exact model/codename|OS|CPU|GPU|RAM| Working state|
+|---|---|---|---|---|---|---|
+|Samsung Galaxy Tab A9+|SM-x210|_unknown_|Qualcomm Snapdragon 695|Qualcomm Adreno 619|_unknown_|Full|
+|OnePlus 15|infiniti|OxygenOS 16|Qualcomm Snapdragon 8elite gen 5|Qualcomm Adreno 840|16gb|Partial (no touchscreen support)|
