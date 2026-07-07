@@ -6,6 +6,8 @@
 > - Only **Snapdragon** devices are supported.
 > - This method has been specifically tested on only **Samsung Galaxy Tab A9+ (SM-X210)**.
 
+> [!CAUTION]
+> This project is experimental; please do not install it if you do not know what you are doing. I accept no responsibility for any problems you may encounter!
 
 # Prerequisites
 Before you start:
