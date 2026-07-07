@@ -77,8 +77,24 @@ echo "[*] Pushing module to device..."
 "$ADB_CMD" push debian_module.zip /sdcard/
 rm -rf debian_module.zip
 
-echo "[*] Installing Magisk module (approve the root prompt on your device if it appears)..."
-"$ADB_CMD" shell -t "su -c 'magisk --install-module /sdcard/debian_module.zip'"
+"$ADB_CMD" shell su -v
+if [ $? -eq 0 ]; then 
+    echo "SU Binary Found"
+else
+    echo "ERROR : SU binary not found, check if android shell has root acess in your root manager"
+    exit 1
+fi
+
+if "$ADB_CMD" shell -t "su -c 'command -v magisk'" >/dev/null 2>&1 ; then
+    echo "Magisk root detected, installing module using the magisk CLI"
+    "$ADB_CMD" shell -t "su -c 'magisk --install-module /sdcard/debian_module.zip'"
+elif "$ADB_CMD" shell 'su -c "command -v ksud"' >/dev/null 2>&1 ; then
+    echo "KernelSU-based root detected, installing module using ksud"
+    "$ADB_CMD" shell -t "su -c 'ksud module install /sdcard/debian_module.zip'"
+else
+    echo "Could not find suitable root system, please install the debian chroot module manually, it is stored in your storage root"
+    read -p "Press Enter to continue, press Ctrl+C to exit" </dev/tty
+fi
 
 echo "[*] Pushing startup script (script.sh) to device..."
 curl -L -o script.sh "https://raw.githubusercontent.com/av2xn/DOAN/refs/heads/main/script.sh"
