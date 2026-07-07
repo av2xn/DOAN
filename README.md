@@ -10,7 +10,7 @@
 ## Prerequisites
 Before you start:
 1.  **GSI:** [Google's Android 16 Non-GMS GSI](https://dl.google.com/developers/android/baklava/images/gsi/aosp_arm64-exp-BP2A.250605.031.A3-13578795-82277143.zip) It is not compulsory, but it is recommended.
-2.  **Root:** [Magisk](https://github.com/topjohnwu/Magisk) installed and functional.
+2.  **Root:** [Magisk](https://github.com/topjohnwu/Magisk) installed and functional, other root methods can be used, but manual module installation might be needed.
 3.  **Connection:** Internet connection on the device and an active ADB bridge from your PC.
 
 
