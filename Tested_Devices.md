@@ -9,6 +9,6 @@
 | :--- | :---: | :--- | :--- | :---: | :---: | :---: |
 | **Samsung Galaxy Tab A9+**<br>*(SM-X210)* | `gta9pwifi` | [Android 16 AOSP GSI](https://developer.android.com/about/versions/16/gsi-release-notes) | Qualcomm Snapdragon 695 5G | Adreno 619 | ✅ | ✅ |
 | **OnePlus 15**<br>*(CPH2745)* | `infiniti` | OxygenOS 16 | Qualcomm Snapdragon 8 Elite Gen 5 | Adreno 840 | ✅ | ❌ |
-| **Samsung Galaxy S24 Ultra**<br>*(SM-S928B)* | `e3q` | unknown for now | Qualcomm Snapdragon 8 Gen 3 for Galaxy | Adreno 750 | ✅ | ✅ |
-| **Nothing Phone 1**<br>*(A063)* | `spacewar` | NothingOS 3.2 | Qualcomm Snapdragon 778G+ 5G | Adreno 642L | ✅ | ❌ |
+| **Samsung Galaxy S24 Ultra**<br>*(SM-S928B)* | `e3q` | unknown for now | Qualcomm Snapdragon 8 Gen 3 for Galaxy | Adreno 750 | ✅ | ❌ |
+| **Nothing Phone 1**<br>*(A063)* | `spacewar` | NothingOS 3.2 | Qualcomm Snapdragon 778G+ 5G | Adreno 642L | ✅ | ✅ |
 | **Xiaomi Mi 8 SE**<br>*(none)* | `xmsirius` | [crDroid 12.11](https://github.com/Rocky7842/OTA_provider/releases/download/xmsirius-crDroid-12.11-20260609/crDroidAndroid-16.0-20260609-xmsirius-v12.11.zip) | Quallcomm Snapdragon 710 | Adreno 616 | ? | ? |
