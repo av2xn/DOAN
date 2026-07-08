@@ -1,3 +1,7 @@
+> [!CAUTION]
+> YOU ARE IN THE DEV BRANCH RIGHT NOW!
+> IF YOU REALLY DON’T KNOW WHAT YOU’RE DOING, DO NOT USE THIS THIS!
+
 # DOAN: Debian On Android Natively
 ![A Tab A9+ Running Debian](./media/20260704_000004.jpg.jpeg)
 
