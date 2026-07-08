@@ -14,6 +14,7 @@
 | **Xiaomi Mi 8 SE**<br>*(none)* | `xmsirius` | [crDroid 12.11 (Unofficial)](https://github.com/Rocky7842/OTA_provider/releases/download/xmsirius-crDroid-12.11-20260609/crDroidAndroid-16.0-20260609-xmsirius-v12.11.zip) | 4.9 | ? | Qualcomm Snapdragon 710 | Adreno 616 | ? | ? |
 | **Xiaomi Mi 6**<br>*(none)* | `sagit` | [LinageOS 22.2](https://mirrorbits.lineageos.org/full/sagit/20260703/lineage-22.2-20260703-nightly-sagit-signed.zip) | 4.4 | Magisk | Qualcomm Snapdragon 835 | Adreno 540 | ? | ? |
 | **Xiaomi Redmi Note 9 Pro**<br>*(none)* | `joyeuse` | [crDroid 11.7](https://sourceforge.net/projects/crdroid/files/miatoll/11.x/crDroidAndroid-15.0-20250723-miatoll-v11.7.zip/download) | 4.14 | Magisk | Qualcomm Snapdragon 720G | Adreno 618 | ✅ | ? |
+| **Samsung Galaxy A24**<br>*(SM-A245F)* | `a24` | [Project NiNine v2.1.0](https://drive.google.com/file/d/1Z1MxOyFmigcON-oWqtuVhsrWjPBgNVtM/view) | 5.10 | KernelSU Next | MediaTek Helio G99 | Mali-G57 MP2 | ? | ? |
 
 Why Xiaomi Mi 8 SE and Xiaomi Mi 6 have ? at Screen and Touch?  
 Because we have internet problems in the chroot and can not install xfce right now, we will fix it 
