@@ -8,7 +8,7 @@
 | Root | Is it works? |
 | :--- | :---: |
 | Magisk | ✅ |
-| APatch | ? |
+| APatch | ✅ |
 | KernelSU | ? |
 | KernelSU Next | ? |
 | SukiSU Ultra | ? |
