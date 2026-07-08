@@ -11,8 +11,8 @@
 
 # Prerequisites
 Before you start:
-1.  **GSI:** [Google's Android 16 Non-GMS GSI](https://dl.google.com/developers/android/baklava/images/gsi/aosp_arm64-exp-BP2A.250605.031.A3-13578795-82277143.zip) It is not compulsory, but it is recommended.
-2.  **Root:** Any root.
+1.  **GSI:** [Google's Android 16 Non-GMS GSI](https://dl.google.com/developers/android/baklava/images/gsi/aosp_arm64-exp-BP2A.250605.031.A3-13578795-82277143.zip) It is not required, but highly recommended.
+2.  **Root:** Any root solution (Magisk highly recommended.)
 3.  **Connection:** Internet connection on the device and an active ADB bridge from your PC.
 
 
@@ -20,7 +20,7 @@ Before you start:
 
 > [!CAUTION]
 > If you are not using Magisk, use manual installation.  
-> Automated installation does not support anything other than Magisk.
+> Automated installation only supports Magisk
 
 | OS | Link |
 | :--- | :--- |
@@ -99,7 +99,7 @@ adb shell "echo 'nameserver 8.8.8.8' | su -c 'tee /data/local/debian/etc/resolv.
 
 ## 7. Setting up Debian
 
-Enter the Debian chroot:
+Access the device shell and enter the Debian chroot:
 ```bash
 adb shell
 su
@@ -141,6 +141,9 @@ Connect your device via ADB and run the startup script directly:
 adb shell "su -c '/data/local/tmp/script.sh'"
 ```
 
+# How to log out
+Currently, the only way to exit is by rebooting the device. LOL
+
 ## ⚠️ Warning
 > Sometimes you may need to reboot the device!  
-> If your screen only shows black, next time, run the script whilst the main screen is displayed.
+> If you encounter a black screen, try running the script while the device screen is active and unlocked.
