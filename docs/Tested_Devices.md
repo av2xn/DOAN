@@ -5,7 +5,7 @@
 | ✅ | Working |
 | ❌ | Not working |
 
-| Device & Model | Codename | OS | SoC | GPU | Screen | Touch |
+| Device & Model | Codename | ROM | SoC | GPU | Screen | Touch |
 | :--- | :---: | :--- | :--- | :---: | :---: | :---: |
 | **Samsung Galaxy Tab A9+**<br>*(SM-X210)* | `gta9pwifi` | [Android 16 AOSP GSI](https://developer.android.com/about/versions/16/gsi-release-notes) | Qualcomm Snapdragon 695 5G | Adreno 619 | ✅ | ✅ |
 | **OnePlus 15**<br>*(CPH2745)* | `infiniti` | OxygenOS 16 | Qualcomm Snapdragon 8 Elite Gen 5 | Adreno 840 | ✅ | ❌ |
