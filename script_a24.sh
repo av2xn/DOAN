@@ -12,8 +12,7 @@ setprop init.svc_debug.no_fatal.zygote true
 
 stop zygote
 sleep 2
-# Bazi cihazlarda zygote durunca system_server otomatik olmuyor, touch cihazini grab modda tutmaya devam edebiliyor.
-# Test sonucuna gore gerekliyse asagidaki satiri aktif edin:
+# Gerekirse asagidaki satiri aktif edin (system_server touch'u grab modda tutmaya devam ederse):
 # pkill -9 -f system_server
 # sleep 1
 stop bootanim
@@ -26,7 +25,15 @@ chroot /data/local/debian /usr/bin/env PATH=/bin:/usr/bin:/sbin:/usr/sbin TMPDIR
     chmod 666 /dev/null
     export SYSTEMD_IN_CHROOT=0
     export SYSTEMD_IGNORE_CHROOT=1
-    
+
+    # === DOKUNMATIK KALIBRASYONU (90 derece ekran rotasyonuna gore) ===
+    mkdir -p /etc/udev/hwdb.d
+    cat > /etc/udev/hwdb.d/91-touch-transform.hwdb << 'HWDBEOF'
+evdev:name:sec_touchscreen:*
+ LIBINPUT_CALIBRATION_MATRIX=0 -1 1 1 0 0
+HWDBEOF
+    systemd-hwdb update
+
     mkdir -p /run/udev
     /lib/systemd/systemd-udevd --daemon || /sbin/udevd --daemon
     sleep 1
@@ -48,8 +55,7 @@ chroot /data/local/debian /usr/bin/env PATH=/bin:/usr/bin:/sbin:/usr/sbin TMPDIR
     sleep 1
     export SEATD_SOCK=/run/seatd.sock
     
-    # NOT: --output DSI-1 bu cihazda dogrulanmadi. Compositor calisirken
-    # 'wlr-randr' calistirip gercek panel adini ogrenip asagidaki satiri guncelleyin.
+    # Masaustu acildiktan 3 saniye sonra ekrani yatay yap
     (
         sleep 3
         export XDG_RUNTIME_DIR=/tmp/runtime
