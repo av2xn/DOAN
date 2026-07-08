@@ -5,7 +5,7 @@
 | ✅ | Working |
 | ❌ | Not working |
 
-| Root | Is it works? |
+| Root | Is it works? |                  
 | :--- | :---: |
 | Magisk | ✅ |
 | APatch | ✅ |
@@ -23,11 +23,6 @@
 
 | Kernel Version | Display Architecture / Logic |
 | :--- | :---: |
-| `Linux 3.0` | Legacy Framebuffer (`fbdev`) |
-| `Linux 3.4` | Legacy Framebuffer (`fbdev`) |
-| `Linux 3.10` | Legacy Framebuffer (`fbdev`) |
-| `Linux 3.18` | Legacy Framebuffer (`fbdev`) |
-| `Linux 4.4` | Legacy Framebuffer (`fbdev` / ADF Transition) |
 | `Linux 4.9` | Hybrid DRM / KMS & `fbdev` |
 | `Linux 4.14` | Hybrid DRM / KMS & `fbdev` |
 | `Linux 4.19` | DRM / KMS (Atomic KMS Transition) |
@@ -38,3 +33,5 @@
 | `Linux 6.6` | Pure DRM / KMS (GKI Standard) |
 | `Linux 6.12` | Pure DRM / KMS (GKI Standard) |
 | `Linux 6.18` | Pure DRM / KMS (GKI Standard) |
+
+**Minimum version that DOAN supports currently is 4.9**
