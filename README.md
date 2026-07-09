@@ -4,6 +4,8 @@
 > [!CAUTION]
 > This project is experimental; please do not install it if you do not know what you are doing. I accept no responsibility for any problems you may encounter!
 
+# Switch to dev branch for latest updates (it may be harmful for your device)
+
 # Prerequisites
 Before you start:
 1.  **GSI:** [Google's Android 16 Non-GMS GSI](https://dl.google.com/developers/android/baklava/images/gsi/aosp_arm64-exp-BP2A.250605.031.A3-13578795-82277143.zip) It is not required, but highly recommended.
