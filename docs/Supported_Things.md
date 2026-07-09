@@ -9,8 +9,8 @@
 | :--- | :---: |
 | Magisk | ✅ |
 | APatch | ✅ |
-| KernelSU | ? |
-| KernelSU Next | ? |
+| KernelSU | ✅ |
+| KernelSU Next | ✅ |
 | SukiSU Ultra | ? |
 
 | ROM | Is it works? |
