@@ -17,6 +17,7 @@
 | **Samsung Galaxy A24**<br>*(SM-A245F)* | `a24` | [Project NiNine v2.1.0](https://drive.google.com/file/d/1Z1MxOyFmigcON-oWqtuVhsrWjPBgNVtM/view) | 5.10 | KernelSU Next | MediaTek Helio G99 **(!YES FIRST MTK DEVICE!)** | Mali-G57 MP2 | ✅ But with custom script | ✅ But with custom script |
 | **Redmi Note 12S**<br>*(none)* | `sea` | ? | 6.6 | ? | MediaTek Helio G96 | Mali-G57 MP2 | ? | ? |
 | **Redmi 13C**<br>*(none)* | `gale` | ? | 6.6 | ? | MediaTek Helio G85 | Mali-G52 MP2 | ? | ? |
+| **Poco X3 NFC**<br>*(m2007j20cg)* | `surya` | Miui 14 | 4.14 | Magisk | Qualcomm Snapdragon 732G | Adreno 618 | ? | ? |
 
 Why Xiaomi Mi 8 SE and Xiaomi Mi 6 have ? at Screen and Touch?  
 Because we have internet problems in the chroot and can not install xfce right now, we will fix it and do a test
