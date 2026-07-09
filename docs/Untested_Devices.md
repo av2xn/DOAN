@@ -7,4 +7,4 @@
 | **Samsung Galaxy S9+**<br>*(none)* | `star2lte` | 4.9 | Samsung Exynos 9810 |Mali-G72 MP18 |
 | **OnePlus 8 Pro**<br>*(none)* | `instantnoodlep` | ? | Qualcomm Snapdragon 865 | Adreno 650 |
 | **Samsung Galaxy A33**<br>*(SM-A336E)* | `?` | ? | Samsung Exynos 1280 | Mali-G68 MP4 |
-| **Redmi Note 14 Pro 4G**<br>*(none)* | `obsidian` | HyperOS 2 | MediaTek Helio G100 Ultra | Mali-G57 MC2 |
+| **Redmi Note 14 Pro 4G**<br>*(none)* | `obsidian` | ? | MediaTek Helio G100 Ultra | Mali-G57 MC2 |
