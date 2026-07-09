@@ -19,4 +19,7 @@
 | **Redmi 13C**<br>*(none)* | `gale` | ? | 6.6 | ? | MediaTek Helio G85 | Mali-G52 MP2 | ? | ? |
 
 Why Xiaomi Mi 8 SE and Xiaomi Mi 6 have ? at Screen and Touch?  
-Because we have internet problems in the chroot and can not install xfce right now, we will fix it 
+Because we have internet problems in the chroot and can not install xfce right now, we will fix it and do a test
+
+Why Redmi Note 12S and Redmi 13C have ? at Screen and Touch?  
+Because we haven’t tested it yet, but we will
