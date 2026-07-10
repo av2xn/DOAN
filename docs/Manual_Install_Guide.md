@@ -10,7 +10,7 @@ for one specific phone, this setup uses **one universal `script.sh`** plus a
 small **`device.conf`** file that holds only the values specific to your
 device. You never need to edit `script.sh` itself — only `device.conf`.
 
-> **Time required:** ~20–30 minutes, plus package download time.
+> **Time required:** ~20–25 minutes if you never tried.
 
 ---
 
