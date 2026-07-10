@@ -5,6 +5,7 @@
 # ============================================================================
 
 # Path to your Debian chroot root.
+# Default, do not change this if you didnt installed another chroot
 DEBIAN_ROOT="/data/local/debian"
 
 # --- Composer HAL service name (README section 8.1) -----------------------
@@ -14,12 +15,12 @@ DEBIAN_ROOT="/data/local/debian"
 #                vendor.qti.hardware.display.composer
 # Set to "none" only if ps -A shows composer running as part of
 # surfaceflinger itself (no separate process).
-COMPOSER_SERVICE="vendor.qti.hardware.display.composer"
+COMPOSER_SERVICE=""
 
 # --- system_server touch-grab workaround (README section 8.2) -------------
 # Set to 1 if "ps -A | grep system_server" still shows it running a few
 # seconds after "stop zygote". Leave 0 otherwise.
-KILL_SYSTEM_SERVER=0
+KILL_SYSTEM_SERVER=
 
 # --- Touchscreen calibration (README section 8.3 / 8.5) --------------------
 # Leave both blank to skip calibration entirely (no rotation / no fix needed).
