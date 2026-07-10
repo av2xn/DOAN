@@ -29,8 +29,8 @@ device. You never need to edit `script.sh` itself — only `device.conf`.
 | File | Where to get it |
 |---|---|
 | Android Platform Tools | [Windows](https://dl.google.com/android/repository/platform-tools-latest-windows.zip) · [macOS](https://dl.google.com/android/repository/platform-tools-latest-darwin.zip) · [Linux](https://dl.google.com/android/repository/platform-tools-latest-linux.zip) |
-| `script.sh` | included with this guide |
-| `device.conf.example` | included with this guide |
+| `script.sh` | [Here](https://github.com/av2xn/DOAN/blob/dev/script.sh) |
+| `device.conf.example` | [Here](https://github.com/av2xn/DOAN/blob/dev/device.conf.example) |
 | Debian chroot module | [Magisk Debian Chroot releases](https://github.com/av2xn/Magisk-Debian-Chroot/releases/) |
 
 > **Tip:** On macOS/Linux, run `chmod +x adb fastboot` inside the
