@@ -107,10 +107,14 @@ bootdebian
 Inside the chroot:
 
 ```bash
-apt update && apt upgrade -y
-apt install -y labwc seatd xwayland xfce4 xfce4-goodies xfce4-terminal \
-  xfce4-settings wvkbd wlr-randr swaybg tango-icon-theme fastfetch btop \
-  firefox-esr mesa-vulkan-drivers vulkan-tools evtest lsof pciutils
+apt update && apt upgrade -y && apt install -y labwc seatd xwayland xfce4 xfce4-goodies xfce4-terminal xfce4-settings wvkbd wlr-randr swaybg tango-icon-theme mesa-vulkan-drivers vulkan-tools evtest lsof pciutils
+```
+
+Optional packages:
+
+
+```bash
+apt install -y fastfetch btop firefox-esr
 ```
 
 `evtest` and `lsof` are added on purpose — you'll need them in the detection
