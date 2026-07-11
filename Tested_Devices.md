@@ -12,3 +12,4 @@
 | **Samsung Galaxy S24 Ultra**<br>*(SM-S928B)* | `e3q` | unknown for now | Qualcomm Snapdragon 8 Gen 3 for Galaxy | Adreno 750 | ✅ | ❌ |
 | **Nothing Phone 1**<br>*(A063)* | `spacewar` | NothingOS 3.2 | Qualcomm Snapdragon 778G+ 5G | Adreno 642L | ✅ | ✅ |
 | **Xiaomi Mi 8 SE**<br>*(none)* | `xmsirius` | [crDroid 12.11](https://github.com/Rocky7842/OTA_provider/releases/download/xmsirius-crDroid-12.11-20260609/crDroidAndroid-16.0-20260609-xmsirius-v12.11.zip) | Quallcomm Snapdragon 710 | Adreno 616 | ? | ? |
+| **onn 11" Tablet Pro (2024 Model)**<br>*(100146660)* | `bengal` | [Android 16 LineageOS GSI](https://developer.android.com/about/versions/16/gsi-release-notes) | Qualcomm Snapdragon 685 | Adreno 610 | ✅ | ✅ |
